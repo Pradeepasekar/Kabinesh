@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57653" started-at="2019-11-25T04:50:02Z" finished-at="2019-11-25T04:51:00Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="57653" started-at="2019-11-25T04:50:02Z" finished-at="2019-11-25T04:51:00Z">
+      <class name="org.testng.test1">
+        <test-method status="PASS" signature="start()[pri:0, instance:org.testng.test1@5e025e70]" name="start" is-config="true" duration-ms="28715" started-at="2019-11-24T20:50:02Z" finished-at="2019-11-24T20:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="startTime()[pri:0, instance:org.testng.test1@5e025e70]" name="startTime" is-config="true" duration-ms="29" started-at="2019-11-24T20:50:31Z" finished-at="2019-11-24T20:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="send(java.lang.String)[pri:0, instance:org.testng.test1@5e025e70]" name="send" duration-ms="22920" started-at="2019-11-24T20:50:31Z" data-provider="log in" finished-at="2019-11-24T20:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send -->
+        <test-method status="PASS" signature="startTime()[pri:0, instance:org.testng.test1@5e025e70]" name="startTime" is-config="true" duration-ms="1" started-at="2019-11-24T20:50:54Z" finished-at="2019-11-24T20:50:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="send(java.lang.String)[pri:0, instance:org.testng.test1@5e025e70]" name="send" duration-ms="3321" started-at="2019-11-24T20:50:54Z" data-provider="log in" finished-at="2019-11-24T20:50:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send -->
+        <test-method status="PASS" signature="startTime()[pri:0, instance:org.testng.test1@5e025e70]" name="startTime" is-config="true" duration-ms="0" started-at="2019-11-24T20:50:57Z" finished-at="2019-11-24T20:50:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="send(java.lang.String)[pri:0, instance:org.testng.test1@5e025e70]" name="send" duration-ms="2616" started-at="2019-11-24T20:50:57Z" data-provider="log in" finished-at="2019-11-24T20:51:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fridge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send -->
+      </class> <!-- org.testng.test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
